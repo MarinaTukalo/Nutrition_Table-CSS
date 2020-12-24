@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#container {
+    width: 25%;
+    margin: 0 auto;
+    border: solid 5px;
+    display: flex;
+    flex-flow: column;
+}
+
+#innercontainer {
+    margin: 0.5% 3%;
+}
+
+.title {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.textright {
+    text-align: right;
+}
+
+.pcenter {
+    text-align: center;
+}
+
+.pleft {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.pright {
+    flex-basis: 25%;
+    text-align: right;
+}
+
+.pdentright {
+    flex-basis: 50%;
+    text-align: left;
+    text-indent: 15px;
+}
+
+.pleft2 {
+    flex-basis: 40%;
+    text-align: left;
+}
+
+.pleft2ident {
+    flex-basis: 40%;
+    text-align: left;
+    text-indent: 15px;
+}
+
+.pright2 {
+    flex-basis: 15%;
+    text-align: left;
+}
+
+.pcenter2 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.smallfont {
+    font-size: small;
+    font-weight: bold;
+}
+
+.thickline {
+    border-bottom: solid 15px
+}
+
+.midline {
+    border-bottom: solid 7px;
+}
+
+.longline {
+    border-bottom: solid 2px
+}
+
+.shortline {
+    border-bottom: solid 2px black;
+    margin-left: 15px;
+}
+
+.longthinline {
+    border-bottom: solid 1px
+}
